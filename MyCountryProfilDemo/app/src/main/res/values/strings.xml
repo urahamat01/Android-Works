@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MyCountryProfilDemo</string>
+    <string name="bangladesh_button">bangladesh</string>
+    <string name="india_button">india</string>
+    <string name="usa_button">USA</string>
+
+
+    <string name="banglasesh_text">
+
+        Modern Bangladesh emerged as an independent nation in 1971 after \n\n
+        breaking away and achieving independence from Pakistan in the Bangladesh\n
+        Liberation War. The country\'s borders corresponded with the major portion \n
+        of the ancient and historic region of Bengal in the eastern part of the \n
+        Indian subcontinent, where civilization dates back over four millennia, to \n
+        the Chalcolithic. The history of the region is closely intertwined with the \n
+        history of Bengal and the broader history of the Indian subcontinent.\n
+
+
+    </string>
+
+    <string name="india_text">
+        According to consensus in modern genetics anatomically modern humans first\n\n
+        arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years\n
+        ago.[1] However, the earliest known human remains in South Asia date to 30,000\n
+        years ago. Settled life, which involves the transition from foraging to farming\n
+        and pastoralism, began in South Asia around 7,000 BCE. At the site of Mehrgarh,\n
+        Balochistan, Pakistan, presence can be documented of the domestication of wheat\n
+        and barley, rapidly followed by that of goats, sheep, and cattle.[2] By 4,500 \n
+        BCE, settled life had spread more widely,[2] and began to gradually evolve into\n
+        the Indus Valley Civilization, an early civilization of the Old world,\n
+
+
+    </string>
+    <string name="usa_text">
+
+         The history of the United States, a country in North America,\n
+        began with the arrival of Indigenous people from Siberia before 15,000 BC.\n
+        Numerous cultures formed, and many disappeared before 1500. The arrival of\n
+        Christopher Columbus in the year 1492 started the European colonization of\n
+        the Americas. Most colonies were formed after 1600, and the early records and\n
+        writings of John Winthrop make the United States the first nation whose most\n
+        distant origins are fully recorded.[1] By the 1760s, thirteen British colonies\n
+        contained 2.5 million people along the Atlantic coast east of the Appalachian\n
+
+    </string>
+
+
+</resources>

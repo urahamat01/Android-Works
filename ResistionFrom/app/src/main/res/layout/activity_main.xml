@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/restration"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/firstNameET"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="7dp"
+                android:textSize="18sp"
+                android:layout_weight="0.5"/>
+            <EditText
+                android:id="@+id/lastNameET"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textSize="18sp"
+                android:layout_weight="0.5"/>
+
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email input"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_contact_mail_black_24dp"
+            android:drawablePadding="7dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="password"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+            android:drawablePadding="7dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+       <AutoCompleteTextView
+           android:id="@+id/radioButtonACTV"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Blood Group Suggest"
+           android:drawableLeft="@drawable/ic_group_black_24dp"
+           android:drawablePadding="7dp"
+           android:textStyle="italic"
+           android:textSize="18sp"
+           android:textAllCaps="false"/>
+
+        <CheckBox
+            android:id="@+id/checkboxBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I accept temes and conditeion"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="50dp"/>
+
+
+        <Button
+            android:id="@+id/buttonSU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SingUp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/button"
+            android:background="@color/butBack"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

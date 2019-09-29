@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#148e73"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bangladeshButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bangladesh_button"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:layout_margin="3dp"
+        android:drawableLeft="@drawable/ic_bangladesh"
+        android:textStyle="bold"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/indianButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/india_button"
+        android:textAlignment="center"
+        android:layout_margin="3dp"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_india"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/usaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usa_button"
+        android:textAlignment="center"
+        android:layout_margin="3dp"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_united_states"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textStyle="bold" />
+
+</LinearLayout>
