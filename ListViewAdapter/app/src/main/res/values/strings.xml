@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ListViewAdapter</string>
+
+    <string-array name="country_name">
+        <item>bangladesh</item>
+        <item>india</item>
+        <item>austria</item>
+        <item>croatia</item>
+        <item>croatia</item>
+        <item>germany</item>
+        <item>india</item>
+        <item>sweden</item>
+        <item>tomas_arad_face</item>
+        <item>canada</item>
+        <item>united-kingdo</item>
+        <item>united-kingdom</item>
+        <item>united-kingdom</item>
+        <item>united-kingdom</item>
+        <item>united-kingdom</item>
+    </string-array>
+
+</resources>

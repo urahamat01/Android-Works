@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_gravity="center"
+    android:background="#5EB3A4A4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Student From: "
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entered Your Name"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Entered Your Id"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Email Id"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:text="Insert-Button"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclearVeiw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57E0C5"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/titleIdRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:gravity="center_horizontal"
+            android:text="Table Display :"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/haderId"
+        android:layout_marginTop="30dp"
+        android:background="#ff22"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Number Id" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Number Id" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Email Id" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Passport Id" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hader2Id"
+        android:layout_marginTop="30dp"
+        android:background="#8BC34A"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Number Id" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Email Id" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Passport Id" />
+    </TableRow>
+</TableLayout>

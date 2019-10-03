@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BasedAdapter</string>
+
+
+    <string-array name="country_name">
+        <item>bangladesh</item>
+        <item>india</item>
+        <item>bangladesh</item>
+        <item>croatia</item>
+        <item>croatia</item>
+        <item>germany</item>
+        <item>india</item>
+        <item>sweden</item>
+        <item>tomas_arad_face</item>
+        <item>canada</item>
+
+    </string-array>
+</resources>

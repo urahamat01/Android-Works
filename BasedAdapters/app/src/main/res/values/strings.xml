@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BasedAdapters</string>
+
+    <string-array name="country_name">
+        <item>ic_launcher_background</item>
+        <item>c_launcher_foreground</item>
+    </string-array>
+
+</resources>
