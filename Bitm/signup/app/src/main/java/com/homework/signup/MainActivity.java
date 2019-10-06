@@ -14,7 +14,6 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private EditText firstnameEt, lastnameEt, emailEt, passwordEt;
-    pri
     private AutoCompleteTextView bloodgroupACTV;
     private CheckBox conditionCB;
     private Button signupButton;

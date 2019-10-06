@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:background="#EAEFF3"
+    android:paddingBottom="20dp"
+    android:gravity="center"
+    android:layout_margin="4dp"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_action_name"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number"
+        android:layout_marginTop="5dp"
+        android:padding="15dp"
+        android:id="@+id/phoneEt"
+        android:inputType="phone"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/buttonBtn"/>
+
+
+
+
+</LinearLayout>
