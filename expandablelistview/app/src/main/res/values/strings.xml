@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">expandablelistview</string>
+    
+    <string-array name="abbreviation_list_header">
+
+        <item>ABC</item>
+        <item>PI</item>
+        <item>BAC</item>
+        <item>DEMO</item>
+        <item>POSE</item>
+        <item>URL</item>
+        <item>ABAST</item>
+        <item>PULL</item>
+        <item>ADD</item>
+
+
+    </string-array>
+
+
+
+    
+    <string-array name="abbreviation_list_child">
+
+
+
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+        <item>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, "\n\"when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </item>
+
+
+
+
+    </string-array>
+</resources>

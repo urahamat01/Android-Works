@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">autocompletetextview</string>
+    <string-array name="country_name">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Barisal</item>
+        <item>Dhaka</item>
+        <item>Khluna</item>
+        <item>Pabna</item>
+        <item>Kushta</item>
+        <item>Jashar</item>
+    </string-array>
+</resources>
