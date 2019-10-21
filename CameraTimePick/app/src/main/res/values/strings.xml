@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">CameraTimePick</string>
+
+<!--    -->
+<!--    <string-array name="animation_array">-->
+
+<!--        // Creating arrays to hold the animation arrays-->
+<!--        const arr = [];-->
+<!--        for (var i = 0; i < 3; i++) {-->
+<!--        arr.push(i)-->
+<!--        };-->
+
+<!--        // Inputs configs-->
+<!--        const inputs = [-->
+<!--        {-->
+<!--        placeholder: 'Full Name',-->
+<!--        },-->
+<!--        {-->
+<!--        placeholder: 'Email Address',-->
+<!--        },-->
+<!--        {-->
+<!--        placeholder: 'Password',-->
+<!--        }-->
+<!--        ];-->
+
+<!--        export default class App extends React.Component {-->
+<!--        constructor(props) {-->
+<!--        super(props);-->
+<!--        this.animatedInputValue = [];-->
+<!--        arr.forEach((value) => {-->
+<!--        this.animatedInputValue[value] = new Animated.Value(0)-->
+<!--        });-->
+<!--        }-->
+
+<!--        componentDidMount() {-->
+<!--        // creating array animations-->
+<!--        const inputAnimations = arr.map((item) => {-->
+<!--        return Animated.timing(-->
+<!--        this.animatedInputValue[item],-->
+<!--        {-->
+<!--        toValue: 1,-->
+<!--        duration: 1500,-->
+<!--        }-->
+<!--        );-->
+<!--        });-->
+<!--        // Animate each element after 1000 miliseconds-->
+<!--        Animated.stagger(1000, inputAnimations).start();-->
+<!--        }-->
+
+<!--        render() {-->
+<!--        const animatedInputs = inputs.map((a, i) => {-->
+<!--        return (-->
+<!--        <Animated.View-->
+<!--            key={i}-->
+<!--        style={{-->
+<!--        opacity: this.animatedInputValue[i], // attaching animations to the input opacity-->
+<!--        }}-->
+<!--        >-->
+<!--        <TextInput-->
+<!--            style={[{ borderColor: '#fff', borderBottomWidth: 1, padding: 5, marginBottom: 30 }]}-->
+<!--        selectionColor="#fff"-->
+<!--        placeholder={a.placeholder}-->
+<!--        placeholderTextColor="#fff"-->
+<!--        />-->
+<!--    </string-array>-->
+<!--    );-->
+<!--    });-->
+
+<!--    return (-->
+<!--    <LinearGradient-->
+<!--        colors={['#642B73', '#C6426E']}-->
+<!--    style={{-->
+<!--    position: 'absolute',-->
+<!--    width: '100%',-->
+<!--    height: '100%',-->
+<!--    justifyContent: 'center',-->
+<!--    alignItems: 'center'-->
+<!--    }}-->
+<!--    >-->
+<!--    <View style={{ width: '100%', paddingHorizontal: 25  }}>-->
+<!--    {animatedInputs}-->
+<!--</resources>-->
+<!--    </LinearGradient>-->
+<!--    );-->
+<!--    }-->
+<!--    }-->
+
+
+
+<!--    </string-array>-->
+
+
+</resources>
