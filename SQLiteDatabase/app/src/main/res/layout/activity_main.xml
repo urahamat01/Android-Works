@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_margin="1dp"
+    android:padding="2sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Submittion"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/nameTextId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name : "
+            android:textSize="25dp"
+            android:layout_weight="20"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:hint="Name Input"
+            android:id="@+id/nameET"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/ageTextId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Age : "
+            android:textSize="25dp"
+            android:layout_weight="20"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:hint="Age Input"
+            android:id="@+id/ageET"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/genderTextId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Gender: "
+            android:textSize="25dp"
+            android:layout_weight="25"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:hint="Gender Input"
+            android:id="@+id/genderET"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+       <Button
+
+           android:id="@+id/insertBTN"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorAccent"
+           android:text="InsertButton"
+           android:textSize="28dp"
+           android:layout_marginTop="30dp"
+           android:layout_marginBottom="5dp"
+           android:textAlignment="center"
+           android:layout_gravity="center"/>
+
+
+        <Button
+
+            android:id="@+id/showBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="InsertButton"
+            android:textSize="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -27,7 +27,25 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation 'com.google.firebase:firebase-storage:16.0.4'
     implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    //picasso:picasso:2.5.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    //recyclerview
+    implementation 'com.google.android.material:material:1.0.0'
+
+    //styleabletoast
+    implementation 'com.muddzdev:styleabletoast:2.2.2'
+    //intentanimation
+   // implementation 'com.github.hajiyevelnur92:intentanimation:1.0'
+
+    //r0adk11:slidableactivity
+    //implementation 'com.r0adkll:slidableactivity:2.1.0'
+    //alerter dialog
+    implementation 'com.tapadoo.android:alerter:2.0.4'
+   // implementation 'com.google.android.gms:play-services:11.4.0'
+
+
 }
