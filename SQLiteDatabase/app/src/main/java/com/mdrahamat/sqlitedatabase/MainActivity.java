@@ -14,11 +14,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView nameTv, ageTv, genderTv;
-    private EditText nameEt, ageEt, genderEt;
+    private EditText nameEt, ageEt, genderEt, idEt;
     private Button showBTN;
+    private Button deleteBtn;
 
     private Button buttonIn;
+    private Button updateBtn;
     private MyDatabase myDatabase;
+    private String id, name, age, gender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         buttonIn.setOnClickListener(this);
         showBTN.setOnClickListener(this);
+        updateBtn.setOnClickListener(this);
+        deleteBtn.setOnClickListener(this);
 
     }
 
@@ -42,20 +47,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         nameEt = findViewById(R.id.nameET);
         ageEt = findViewById(R.id.ageET);
         genderEt = findViewById(R.id.genderET);
+        idEt = findViewById(R.id.idET);
         buttonIn = findViewById(R.id.insertBTN);
-
+        updateBtn = findViewById(R.id.updateBTN);
+        deleteBtn = findViewById(R.id.deleteBTN);
     }
 
     @Override
     public void onClick(View v) {
+
+        //video 30
         String name = nameEt.getText().toString().trim();
         String age = ageEt.getText().toString().trim();
         String gender = genderEt.getText().toString().trim();
+        String id = idEt.getText().toString().trim();
 
 
         if (v.getId() == R.id.insertBTN) {
-            long id = myDatabase.insertData(name, age, gender);
-            if (id == -1) {
+            long ids = myDatabase.insertData(name, age, gender);
+            if (ids == -1) {
                 Toast.makeText(this, "Unsuccessfully" + id, Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, " Successfully " + id, Toast.LENGTH_SHORT).show();
@@ -85,9 +95,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
             showData("Result Seat :", stringBuffer.toString());
+        }else if (v.getId()==R.id.updateBTN){
+
+           Boolean isUpdate = myDatabase.updateData(id,name,age,gender);
+
+           if (isUpdate == true){
+               Toast.makeText(this, "Data is update", Toast.LENGTH_SHORT).show();
+           }else {
+               Toast.makeText(this, "Not update", Toast.LENGTH_SHORT).show();
+           }
+
+
         }
+        if (v.getId() == R.id.deleteBTN){
+
+           int value = myDatabase.deleteData(id);
+
+           if (value>0){
+               Toast.makeText(this, "Data is Delete", Toast.LENGTH_SHORT).show();
+           }else {
+               Toast.makeText(this, "Data is Not Delete", Toast.LENGTH_SHORT).show();
+           }
+        }
+
     }
 
+
+    // video 32
     private void showData(String title, String data) {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -95,5 +129,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         builder.setMessage(data);
         builder.setCancelable(true);
         builder.show();
+
     }
+
+
 }
