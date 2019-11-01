@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617797138728",
+    "firebase_url": "https://firbasedata-1cb25.firebaseio.com",
+    "project_id": "firbasedata-1cb25",
+    "storage_bucket": "firbasedata-1cb25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617797138728:android:753679ce037591b76e781d",
+        "android_client_info": {
+          "package_name": "com.mdrahamat.firbasedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617797138728-ao51nsnas248m2lim06qj7fdvvov05m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdrahamat.firbasedata",
+            "certificate_hash": "13ecae2cab0d9f4139c549298e51ec86963a2fb8"
+          }
+        },
+        {
+          "client_id": "617797138728-csdfnb7ndjrqebncitfjmfhq07jrlvpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Jn_-6_ydTyOPDiMPUfLK71VIOQvdZE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617797138728-csdfnb7ndjrqebncitfjmfhq07jrlvpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

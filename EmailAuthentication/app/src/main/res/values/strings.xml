@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EmailAuthentication</string>
+    <string name="singIn"><u>singIn</u></string>
+    <string name="SingUp"><u>SingUp</u></string>
+</resources>

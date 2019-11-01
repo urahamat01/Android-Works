@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "46812782457",
+    "firebase_url": "https://cloud-firestore-e0dc3.firebaseio.com",
+    "project_id": "cloud-firestore-e0dc3",
+    "storage_bucket": "cloud-firestore-e0dc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46812782457:android:748b973178af0a236759a8",
+        "android_client_info": {
+          "package_name": "com.mdrahamat.cloudfirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46812782457-60csc90e2mcf8iikulbc5n6h39tld4jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdrahamat.cloudfirestore",
+            "certificate_hash": "13ecae2cab0d9f4139c549298e51ec86963a2fb8"
+          }
+        },
+        {
+          "client_id": "46812782457-6q8q43n2c9e0gk36dnkjcc6lbgo6ac7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW7WlmQCcjp50Tp9_n9HVwoh4-IR2aoNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46812782457-6q8q43n2c9e0gk36dnkjcc6lbgo6ac7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SingInActivity">
+
+    <TextView
+        android:id="@+id/stitleTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:text="Sin..In"/>
+
+    <EditText
+        android:id="@+id/semailEtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email .... "
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/spasswordEtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password .... "
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/singInBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="SinIn"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have any accout ??"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/SingUp"
+            android:textColor="@color/colorAccent"
+            android:onClick="singUp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

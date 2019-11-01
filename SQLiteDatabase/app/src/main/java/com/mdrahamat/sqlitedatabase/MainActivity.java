@@ -63,17 +63,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
 
+        //video 31
         if (v.getId() == R.id.showBTN) {
 
             Cursor cursor = myDatabase.showData();
-            if (cursor.getCount() == 0) {
 
+            if (cursor.getCount() == 0) {
                 //There is no data display
                 showData("Error", "No Data Display");
 
                 Toast.makeText(this, " There is no data ", Toast.LENGTH_SHORT).show();
             }
             StringBuffer stringBuffer = new StringBuffer();
+
             while (cursor.moveToNext()) {
 
                 stringBuffer.append("ID" + cursor.getString(0) + "\n");

@@ -17,7 +17,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     private static final String AGE = "age";
     private static final String GENDER = "gender";
     private static final String DROP_TABLE = "DROP TABLE IFEXISTS" + TABLE_NAME;
-    private static final String SELECT_ALL = "SELECT * FROM" + TABLE_NAME;
+    private static final String SELECT_ALL = "SELECT * FROM " + TABLE_NAME;
     private static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + "(" + ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + NAME + " VERCHER(250), " + AGE + " INTEGER, " + GENDER + " VERCHER(20));";
     private static int VERSION = 2;
     private Context context;
@@ -56,6 +56,7 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     }
 
+    //video 30
     public long insertData(String name, String age, String gender) {
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -68,6 +69,9 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     }
 
+
+
+    //Video 31
 
     public Cursor showData() {
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();

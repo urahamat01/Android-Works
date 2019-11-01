@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "151296563919",
+    "firebase_url": "https://bitmtest-7b3ac.firebaseio.com",
+    "project_id": "bitmtest-7b3ac",
+    "storage_bucket": "bitmtest-7b3ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151296563919:android:aabfc3c5999623992bf5ba",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPzpmc8o3AbwcS40DY7-uRCGSqOJu80DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151296563919:android:c3ad1cbc56c254d32bf5ba",
+        "android_client_info": {
+          "package_name": "com.mdrahamat.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151296563919-ct7u83tl2adrv7mafp0emn699r465icc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdrahamat.authentication",
+            "certificate_hash": "13ecae2cab0d9f4139c549298e51ec86963a2fb8"
+          }
+        },
+        {
+          "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPzpmc8o3AbwcS40DY7-uRCGSqOJu80DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151296563919:android:9836173b9e3d75e42bf5ba",
+        "android_client_info": {
+          "package_name": "com.mdrahamat.firebaseapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151296563919-7ero2g3nveamu2jnu138l6rt7jsean02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdrahamat.firebaseapplication",
+            "certificate_hash": "13ecae2cab0d9f4139c549298e51ec86963a2fb8"
+          }
+        },
+        {
+          "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPzpmc8o3AbwcS40DY7-uRCGSqOJu80DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151296563919:android:ee704397d0a3f0922bf5ba",
+        "android_client_info": {
+          "package_name": "com.mdrahamat.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPzpmc8o3AbwcS40DY7-uRCGSqOJu80DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151296563919-8mvgott1vu98p3rdg961scrqkdgvgq3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
