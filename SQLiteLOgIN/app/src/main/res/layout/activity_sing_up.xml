@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFE3E3"
+    android:padding="10dp"
+    tools:context=".SingUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/nameTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+        <EditText
+            android:id="@+id/nameETID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:hint="Name"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/emailTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+        <EditText
+            android:id="@+id/emailETID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:hint="Email"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/usernameTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName :"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+        <EditText
+            android:id="@+id/usernameETID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:hint="User Name"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/passwordTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password :"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+        <EditText
+            android:id="@+id/passwordETID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:hint="Password"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/singup2BTID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sing Up"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

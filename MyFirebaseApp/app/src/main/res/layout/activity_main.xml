@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/nameEditId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:hint="Name..."
+       android:textSize="20dp"
+       />
+
+    <EditText
+        android:id="@+id/ageEditId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Age..."
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/saveDataId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#3DCDCB"
+        android:text="Save Data"
+        android:textSize="25dp"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/loadDataId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#3DCDCB"
+        android:text="Load Data"
+        android:textSize="25dp"
+        android:textAllCaps="true"/>
+
+
+</LinearLayout>
